@@ -43,6 +43,30 @@
             background-color: #222;
             color: red;
         }
+
+        /* Additional styles for entertainer profiles */
+        #entertainers {
+            text-align: center;
+            background-color: #222;
+            padding: 20px;
+        }
+
+        #entertainers h2 {
+            color: red;
+        }
+
+        #entertainers table {
+            margin: 0 auto;
+        }
+
+        .profile-photo img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        .entertainer-info {
+            color: white;
+        }
     </style>
 
     <!-- JavaScript for interactivity -->
@@ -78,6 +102,40 @@
         <p>Contact us to schedule your service.</p>
         <p>Phone: <a href="tel:6195519810">619-551-9810</a></p>
         <p>Email: <a href="mailto:lasvegassexymaid@gmail.com">lasvegassexymaid@gmail.com</a></p>
+    </section>
+
+    <!-- Entertainer profiles -->
+    <section id="entertainers">
+        <h2>Our Entertainers</h2>
+        <table>
+            <tr>
+                <td>
+                    <p class="profile-photo">
+                        <img src="path_to_photo1.jpg" alt="Entertainer 1">
+                    </p>
+                </td>
+                <td>
+                    <p class="entertainer-info">
+                        <strong>Name: Entertainer 1</strong><br>
+                        Description: Description for Entertainer 1<br>
+                        Status: Ready for Bookings
+                    </p>
+                </td>
+                <td>
+                    <p class="profile-photo">
+                        <img src="path_to_photo2.jpg" alt="Entertainer 2">
+                    </p>
+                </td>
+                <td>
+                    <p class="entertainer-info">
+                        <strong>Name: Entertainer 2</strong><br>
+                        Description: Description for Entertainer 2<br>
+                        Status: Not Ready for Bookings
+                    </p>
+                </td>
+                <!-- Add more entertainer profiles as needed -->
+            </tr>
+        </table>
     </section>
 
     <footer>

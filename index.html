@@ -24,11 +24,33 @@
         }
 
         .title {
-            font-size: 3rem; /* Adjust the font size as needed */
+            font-size: 3rem;
         }
 
         .logo {
-            margin-top: 20px; /* Adjust the spacing as needed */
+            margin-top: 20px;
+        }
+
+        .profiles {
+            display: flex;
+            overflow-x: scroll; /* Enable horizontal scrolling */
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap; /* Prevent profiles from wrapping to the next line */
+        }
+
+        .profile {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            background-color: #f8f8f8;
+            max-width: 300px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .profile img {
+            max-width: 100%;
         }
     </style>
 </head>
@@ -40,7 +62,22 @@
                 <img alt="" data-original-height="600" data-original-width="1050" height="183" src="https://blogger.googleusercontent.com/img/a/AVvXsEgBzxNO3E9FffNwzd73Jkn9vrd1wmsWBo0mJu-qlYZbiww5zdHXsWYRdz3CdQ2Pb5vT8B-Ghhofjqo-opC_g3a6tpxX5TZDluO43LajG1g4Vt6sNMsG4na6YdRfD6EqYLl0NM0t_9UulpFfAnvoGAx6MuoqoxRZfYoLPpgro9ZsB_PYPRfhzDFShDQwWgkT" width="320" />
             </a>
         </div>
-        <!-- Your website content goes here -->
+        <div class="profiles">
+            <div class="profile">
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhl3KC69wb9ez4gYAPzLZyjxwAp9R57niE1nCQSYSnYKWuuHhSn0h_VBp0W3539x57ux8Z9NCChWqVuY8f3l3JhrZbqIqqEiL2I6NI10ocWDJwT9ttrlGk33OV-GcBdvCp4XPhBZNRrwasFVJQLyn5SD3uexl9FdDr_9KnuxlW-2xQVoUKR9rPfpKTTurnt" alt="Profile 1" />
+                <p>Name: Example 1</p>
+                <p>Description: Example</p>
+            </div>
+            <div class="profile">
+                <!-- Add more profiles here -->
+            </div>
+            <div class="profile">
+                <!-- Add more profiles here -->
+            </div>
+            <div class="profile">
+                <!-- Add more profiles here -->
+            </div>
+        </div>
     </div>
 </body>
 </html>

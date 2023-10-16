@@ -33,10 +33,9 @@
 
         .profiles {
             display: flex;
-            overflow-x: scroll; /* Enable horizontal scrolling */
-            justify-content: center;
             align-items: center;
             white-space: nowrap; /* Prevent profiles from wrapping to the next line */
+            animation: scroll 10s linear infinite; /* Scroll effect */
         }
 
         .profile {
@@ -51,6 +50,15 @@
 
         .profile img {
             max-width: 100%;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%); /* Adjust the percentage for the scroll speed */
+            }
         }
     </style>
 </head>
